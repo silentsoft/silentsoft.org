@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Projects
-permalink: /projects
+permalink: /projects/
 priority: 2
 # image: '/assets/img/01.jpg'
 ---

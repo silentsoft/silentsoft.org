@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /about
+permalink: /about/
 priority: 1
 # image: '/assets/img/01.jpg'
 ---

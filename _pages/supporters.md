@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Supporters
-permalink: /thanks
+permalink: /thanks/
 priority: 4
 # image: '/assets/img/01.jpg'
 ---
