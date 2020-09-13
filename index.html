@@ -6,18 +6,19 @@ layout: default
   <!-- begin author -->
   <section class="author" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="700">
     <div class="author__inner">
-  <img src="{{site.baseurl}}{{site.author.image}}" alt="{{site.author.name}}" class="author__img">
-      <h1 class="author__job">{{ site.author.job }}</h1>
-      <p class="author__bio">{{ site.author.bio }}</p>
+      <img src="{{site.baseurl}}{{site.author.image}}" alt="{{site.author.name}}" class="author__img">
+      <p class="author__name">{{ site.author.name }}</p>
+      <h1 class="author__bio">{{ site.author.bio }}</h1>
       <div class="author__more">
         <a href="mailto:{{site.author.email}}?subject=Hello%20%F0%9F%91%8B" class="say-hello">Say hello</a>
-        <a href="{{site.baseurl}}/about/" class="know-more">Know More</a>
+        <a href="{{site.baseurl}}/projects" class="know-more">Know More</a>
+<!--        <a href="{{ 'https://github.com/' | append: site.github-username }}" class="know-more"><i class="fab fa-github"></i> GitHub</a>-->
       </div>
     </div>
   </section>
   <!-- end author -->
 </div>
-
+<!--
 <div class="container">
   {% if site.posts.size > 0 %}
     {% for post in site.posts %}
@@ -41,3 +42,4 @@ layout: default
     {% endfor %}
   {% endif %}
 </div>
+-->

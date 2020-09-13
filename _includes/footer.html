@@ -4,6 +4,7 @@
     <div class="footer__inner">
       <div class="contact">
         <div class="contact__title">Work inquiry, question or something else? <a href="mailto:{{site.author.email}}">Email me</a>.</div>
+        {% if site.contact %}
         <ul class="contact__list list-reset">
           {% for contact in site.contact %}
           <li class="contact__item">
@@ -11,7 +12,13 @@
           </li>
           {% endfor %}
         </ul>
+        {% endif %}
       </div>
+      {% if site.github-username %}
+      <div class="github__followers">
+        <a href="https://github.com/{{site.github-username}}" target="_blank"><img alt="GitHub followers" src="https://img.shields.io/github/followers/{{site.github-username}}?label=Follow&style=social"></a>
+      </div>
+      {% endif %}
     </div>
   </footer>
   <!-- end footer -->

@@ -20,6 +20,8 @@
 }
 
 .nav__item {
+  font-size: 15px;
+  font-weight: 600;
   display: inline-block;
   margin-left: 30px;
   .nav__link {
@@ -86,7 +88,7 @@
       display: block;
       margin-left: 0;
       margin-bottom: 30px;
-      font-size: 27px;
+      font-size: 25px;
       line-height: 33px;
       text-align: center;
     }

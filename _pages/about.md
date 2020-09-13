@@ -1,9 +1,25 @@
 ---
 layout: page
 title: About
-permalink: /about/
-image: '/assets/img/01.jpg'
+permalink: /about
+priority: 1
+# image: '/assets/img/01.jpg'
 ---
+
+<div class="container">
+  <!-- begin author -->
+  <section class="author" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="700">
+    <div class="author__inner">
+      <img src="{{site.baseurl}}{{site.author.image}}" alt="{{site.author.name}}" class="author__img">
+      <p class="author__name">{{ site.author.name }}</p>
+      <div class="author__more">
+        <div><i class="far fa-building"></i> Samsung SDS</div>
+        <div><i class="fas fa-map-marker-alt"></i> Suwon, South Korea</div>
+      </div>
+    </div>
+  </section>
+  <!-- end author -->
+</div>
 
 Hi, my name is Derrick Wells. I like being at the center of events, being free and enjoying every moment. Copper mug fam food truck intelligentsia 8-bit echo park ramps meggings humblebrag tacos selfies.
 
